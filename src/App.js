@@ -19,8 +19,8 @@ function App() {
   }
   return (
    
-    <div className=" flex flex-col justify-center items-center bg-[#344151] w-[100vw] h-[100vh]">
-      <div className="my-10 text-cyan-200 text-4xl">
+    <div className="flex flex-col  items-center justify-center bg-gradient-to-tr from-[#E4F3E3] to-[#5CA9E9] w-[100vw] h-[100vh]">
+      <div className="my-10 text-[#2d74b1] text-4xl">
         Increment and Decrement
       </div>
 
@@ -30,7 +30,7 @@ function App() {
       <button onClick={increaseHandler} className="mx-4 my-2 text-xl">+</button>
       </div>
 
-      <div className="bg-cyan-200 py-2 px-5 rounded my-10">
+      <div className="bg-[#2d74b1] py-2 px-5 rounded my-10">
         <button onClick={resetHandler} >Reset</button>
       </div>
     </div>
